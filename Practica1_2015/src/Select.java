@@ -57,6 +57,7 @@ public class Select {
 			
 		case 8:
 			System.out.println("[8] Numero aleatorio");
+			Numero.aleatorio();
 			break;
 			
 		case 9:
