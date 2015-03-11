@@ -1,7 +1,8 @@
-
 public class Select {
 
 	public static void n1(int n){
+		
+		//Casos de opciones del nivel 1 con sus respectivas llamadas a cada metodo correspondiente
 		
 	switch(n){
 	case 1:
@@ -16,14 +17,20 @@ public class Select {
 		
 	case 3:
 		System.out.println("Conversion de 24 a 12 horas");
+		Hora.convertir();
 		break;
 		
 	case 4:
 		System.out.println("Areas, perimetros y alturas");
+		Figura.calcular();
 		break;
 		
 	case 5:
 		System.out.println("Dias y fechas");
+		break;	
+	
+	case 6:
+		
 		break;
 		
 		default:
@@ -32,6 +39,8 @@ public class Select {
 	}
 		
 	}
+	
+	//Casos de opciones del nivel 1 con sus respectivas llamadas a cada metodo correspondiente
 	
 	public static void n2(int n){
 		
@@ -74,6 +83,10 @@ public class Select {
 			
 		case 15:
 			System.out.println("[15] Numero primos");
+			break;
+		
+		case 16:
+			
 			break;
 			
 		default:

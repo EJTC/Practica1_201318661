@@ -9,12 +9,13 @@ public class NotaEstudiante {
 		int n=1;
 		int suma=0;
 		
+		//Ingreso de notas
 			do{
 				System.out.println("Ingrese la nota "+n);
 			nota = s.nextInt();
 			
 			if(nota<0 || nota>100){
-				System.err.println("Ingrese numeros del 1-100");
+				System.err.println("Ingrese numeros del 1-100"); //Mensaje de error
 			}else{suma += nota; n++;}
 				
 			}while(n>=0 && n<=6);
@@ -22,6 +23,8 @@ public class NotaEstudiante {
 		int promedio=suma/6;
 		
 		System.out.println("Promedio: "+promedio);
+		
+		//Comparacion de rangos de calificaciones
 		
 		if(promedio>=90 && promedio<=100)
 			System.out.print("(A)");
@@ -39,8 +42,4 @@ public class NotaEstudiante {
 			System.out.print("(E)");
 		
 		}
-			
-	
 	}
-
-

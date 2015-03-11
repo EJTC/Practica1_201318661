@@ -30,8 +30,9 @@ public class Menu {
 				System.out.println("[3] Conversion de 24 a 12 horas");
 				System.out.println("[4] Areas, perimetros y alturas");
 				System.out.println("[5] Dias y fechas");
+				System.out.println("[6] <-- Regresar");
 				op2=n.nextInt();
-				Select.n1(op2);
+				Select.n1(op2); //Seleccion de opcion nivel 1
 				break;
 				
 			case 2:
@@ -46,8 +47,9 @@ public class Menu {
 				System.out.println("[13] Adivina la letra");
 				System.out.println("[14] Cuadrado de asteriscos");
 				System.out.println("[15] Numero primos");
+				System.out.println("[16] <-- Regresar");
 				op2=n.nextInt();
-				Select.n2(op2);
+				Select.n2(op2); //Seleccion de opcion nivel 2
 				break;
 				
 			case 3:
