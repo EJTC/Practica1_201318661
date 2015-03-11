@@ -10,7 +10,7 @@ public static void calcular() {
 	Scanner n=new Scanner(System.in);
 	
 	do {
-		
+		//Menu de opciones
 		System.out.println("Seleccione la figura:");
 		System.out.println("[c] Circulo");
 		System.out.println("[u] Cuadrado");
@@ -19,6 +19,7 @@ public static void calcular() {
 		op=n.next();
 		
 		switch (op) {
+		//Calculos del circulo
 		case "c":
 			System.out.println("¿Cual es el radio del circulo?");
 			x=n.nextFloat();
@@ -27,7 +28,7 @@ public static void calcular() {
 			System.out.println("Perimetro: "+(2*Math.PI*x));
 			System.out.println("Radio: "+x);
 			break;
-			
+		//Calculos del cuadrado	
 		case "u":
 			System.out.println("¿Cuando mide un lado del cuadrado?");
 			x=n.nextFloat();
@@ -35,7 +36,7 @@ public static void calcular() {
 			System.out.println("Area: "+Math.pow(x, 2));
 			System.out.println("Perimetro: "+4*x);
 			break;
-			
+		//Calculos del triangulo	
 		case "t":
 			System.out.println("¿Cuanto mide un lado del trinagulo equilatero?");
 			x=n.nextFloat();

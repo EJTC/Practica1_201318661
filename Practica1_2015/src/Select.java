@@ -47,10 +47,12 @@ public class Select {
 		switch(n){
 		case 6:
 			System.out.println("Calculadora simple");
+			Calculadora.operacion();
 			break;
 			
 		case 7:
 			System.out.println("[7] Tablas de multiplicar");
+			Tabla.multiplicar();
 			break;
 			
 		case 8:
