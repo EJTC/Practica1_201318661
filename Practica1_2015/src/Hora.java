@@ -123,9 +123,9 @@ public static void convertir(){
 	//Agregando ceros cuando se ingresa un valor menor a 10, por ejemplo 01
 	if ((hora<10 || hora>0)&&(minutos>0||minutos<10)) {
 		
-		System.out.println("La hora en formato 12 horas es: 0"+hora+":0"+minutos+" "+g);
+		System.out.println("La hora en formato 12 horas es: 0"+hora+":0"+minutos+" "+g+"\n \n");
 		
-	}else {System.out.println("La hora en formato 12 horas es: "+hora+":"+minutos+" "+g);}
+	}else {System.out.println("La hora en formato 12 horas es: "+hora+":"+minutos+" "+g+"\n \n");}
 }
 
 }

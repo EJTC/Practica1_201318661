@@ -26,7 +26,7 @@ public static void calcular() {
 			
 			System.out.println("Area: "+((Math.PI)*(Math.pow(x, 2))));
 			System.out.println("Perimetro: "+(2*Math.PI*x));
-			System.out.println("Radio: "+x);
+			System.out.println("Radio: "+x+"\n \n");
 			break;
 		//Calculos del cuadrado	
 		case "u":
@@ -34,7 +34,7 @@ public static void calcular() {
 			x=n.nextFloat();
 			
 			System.out.println("Area: "+Math.pow(x, 2));
-			System.out.println("Perimetro: "+4*x);
+			System.out.println("Perimetro: "+4*x+"\n \n");
 			break;
 		//Calculos del triangulo	
 		case "t":
@@ -43,7 +43,7 @@ public static void calcular() {
 			
 			System.out.println("Area: "+((Math.sqrt(0.75))*(Math.pow(x, 2))));
 			System.out.println("Perimetro: "+(3*x));
-			System.out.println("Altura: "+(x*Math.sqrt(0.75)));
+			System.out.println("Altura: "+(x*Math.sqrt(0.75))+"\n \n");
 			break;
 			
 		default:

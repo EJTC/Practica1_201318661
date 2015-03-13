@@ -9,13 +9,12 @@ public class Menu {
 		
 		int op=0;
 		int op2=0;
+	
+		Scanner n = new Scanner(System.in);
 		
 		System.out.println("..::|Bienvenido a la Practica 1 de IPC-1|::..");
 		
-		Scanner n = new Scanner(System.in);
-		
-		do{
-			System.out.println("");
+		do{ System.out.println("\n--> Menu principal <--");
 			System.out.println("Seleccione el nivel:");
 			System.out.println("[1] Problemas nivel 1");
 			System.out.println("[2] Problemas nivel 2");
@@ -54,6 +53,7 @@ public class Menu {
 				
 			case 3:
 				System.out.println("Copyright - Edgar Terré - 2015");
+				System.out.println("Prohibida su reproduccion parcial o total.");
 				System.exit(0);
 				
 			default:System.err.println("Opcion invalida (1-2)"); break;

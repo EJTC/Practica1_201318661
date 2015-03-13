@@ -24,19 +24,19 @@ public class Calculadora {
 		//Opciones
 		switch (z) {
 		case "s":
-			System.out.println("La suma es: "+(x+y));
+			System.out.println("La suma es: "+(x+y)+"\n \n");
 			break;
 			
 		case "r":
-			System.out.println("La resta es: "+(x-y));
+			System.out.println("La resta es: "+(x-y)+"\n \n");
 			break;
 			
 		case "m":
-			System.out.println("La multiplicacion es: "+(x*y));
+			System.out.println("La multiplicacion es: "+(x*y)+"\n \n");
 			break;
 			
 		case "d":
-			System.out.println("La division es: "+(x/y));
+			System.out.println("La division es: "+(x/y)+"\n \n");
 			break;
 
 		default:

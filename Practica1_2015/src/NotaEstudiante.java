@@ -22,24 +22,31 @@ public class NotaEstudiante {
 				
 		int promedio=suma/6;
 		
-		System.out.println("Promedio: "+promedio);
+		System.out.print("\n*Promedio: "+promedio+"-->");
 		
 		//Comparacion de rangos de calificaciones
 		
 		if(promedio>=90 && promedio<=100)
-			System.out.print("(A)");
+			System.out.print("(A)*"+"\n");
 		
 		if(promedio>=80 && promedio<=89)
-			System.out.print("(B)");
+			System.out.print("(B)*"+"\n");
 		
 		if(promedio>=70 && promedio<=79)
-			System.out.print("(C)");
+			System.out.print("(C)*"+"\n");
 		
 		if(promedio>=60 && promedio<=69)
-			System.out.print("(D)");
+			System.out.print("(D)*"+"\n");
 		
 		if(promedio>=0 && promedio<=59)
-			System.out.print("(E)");
+			System.out.print("(E)*"+"\n");
+		
+		System.out.println("\nMedia  Puntuación"
++"\n90-100     A"
++"\n80-89      B"
++"\n70-79      C"
++"\n60-69      D"
++"\n 0-59      E");
 		
 		}
 	}

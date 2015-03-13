@@ -23,6 +23,5 @@ public class Diamante {
 			System.out.print("*");
 		}
 	}
-	System.out.println("");
 }
 }
