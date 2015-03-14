@@ -55,8 +55,9 @@ public class Menu {
 				System.out.println("Copyright - Edgar Terré - 2015");
 				System.out.println("Prohibida su reproduccion parcial o total.");
 				System.exit(0);
+				break;
 				
-			default:System.err.println("Opcion invalida (1-2)"); break;
+			default:System.err.println("Opcion invalida (1-3)"); break;
 			}
 			
 		

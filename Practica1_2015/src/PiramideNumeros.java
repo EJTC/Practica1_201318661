@@ -7,7 +7,7 @@ public class PiramideNumeros {
 		int n=0;
 		int cont=0;
 		
-		do {
+		do {//Ingreso de numero de pisos de la piramide
 			System.out.println("Ingrese el numero de pisos de la piramide (0-9)");
 			n=x.nextInt();
 			

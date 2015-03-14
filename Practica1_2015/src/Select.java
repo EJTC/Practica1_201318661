@@ -80,6 +80,7 @@ public class Select {
 			
 		case 13:
 			System.out.println("..::|Adivina la letra|::..");
+			Adivina.letra();
 			break;
 			
 		case 14:
@@ -89,6 +90,7 @@ public class Select {
 			
 		case 15:
 			System.out.println("..::|Numero primos|::..");
+			Primos.conteo();
 			break;
 		
 		case 16:
