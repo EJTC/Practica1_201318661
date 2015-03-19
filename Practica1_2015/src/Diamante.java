@@ -17,10 +17,10 @@ public class Diamante {
 	for(int n=4;n>=0;n--){
 		System.out.println("");
 		for(int k=5;k>=n;k--)
-		System.out.print(" ");
+		System.out.print(" ");//Espacion horizontales
 		
 		for(int m=2*n-1;m>=1;m--){
-			System.out.print("*");
+			System.out.print("*");//Impresion impar de asteriscos
 		}
 	}
 }

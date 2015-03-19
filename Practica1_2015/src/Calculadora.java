@@ -23,24 +23,24 @@ public class Calculadora {
 		z=n.next();
 		//Opciones
 		switch (z) {
-		case "s":
+		case "s"://Suma
 			System.out.println("La suma es: "+(x+y)+"\n \n");
 			break;
 			
-		case "r":
+		case "r"://Resta
 			System.out.println("La resta es: "+(x-y)+"\n \n");
 			break;
 			
-		case "m":
+		case "m"://Multiplicación
 			System.out.println("La multiplicacion es: "+(x*y)+"\n \n");
 			break;
 			
-		case "d":
+		case "d"://División
 			System.out.println("La division es: "+(x/y)+"\n \n");
 			break;
 
 		default:
-			System.err.println("Opcion invalida");
+			System.err.println("Opcion invalida");//Mensaje de error
 			break;
 		}
 	}

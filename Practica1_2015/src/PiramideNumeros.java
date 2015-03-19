@@ -21,8 +21,8 @@ public class PiramideNumeros {
 			for(int k=0;k<=cont;k++)//Ciclo de espacios a la izquierda
 			System.out.print(" ");
 			
-			for(int m=2*h-1;m>=1;m--){//Ciclo de numero de caracteres por fila
-				System.out.print(cont+1);//Numero "cont" de la "n" fila
+			for(int m=h;m>=1;m--){//Ciclo de numero de caracteres por fila
+				System.out.print(cont+1+" ");//Numero "cont" de la "n" fila
 			}
 		cont++;//Aumento de "cont"
 		

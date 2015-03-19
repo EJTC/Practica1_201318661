@@ -7,16 +7,19 @@ public static void aleatorio() {
 	int num1=0;
 	int num2=0;
 	int random=0;
-	int div1=0;
-	int div2=0;
-	int div3=0;
 	
-	String unidades[]={"","uno ","dos ","tres ","cuatro ","cinco ","seis ","siete ",
+	String unidades[]={"","uno","dos","tres","cuatro","cinco","seis","siete ",
 			"ocho","nueve"};
-	String decenas[]={"","diez ","veinte ","treinta ","cuarenta ","cincuenta ","sesenta ","setenta ",
-			"ochenta ","noventa "};
-	String centenas[]={"","cien "};
+	String decenas[]={"","Diez ","Veinte ","Treinta ","Cuarenta ","Cincuenta ","Sesenta ","Setenta ",
+			"Ochenta ","Ooventa "};
+	String centenas[]={"","Cien "};
 	
+	String decimal[]=new String[20];
+	decimal[11]="Once";decimal[12]="Doce";decimal[13]="Trece";decimal[14]="Catorce";
+	decimal[15]="Quince";decimal[16]="Dieciseis";decimal[17]="Diecisiete";decimal[18]="Dieciocho";
+	decimal[19]="Diecinueve";
+	
+
 	do {
 		System.out.println("Ingrese el limite inferior");
 		num1=x.nextInt();
@@ -24,10 +27,10 @@ public static void aleatorio() {
 		System.out.println("Ingrese el limite superior");
 		num2=x.nextInt();
 		
-		if (num1<1 || num1>100 || num2<1 || num2>100 || num2<num1) {
+		if (num1<1 || num1>100 || num2<1 || num2>100 || num2<num1 || num1==num2) {
 			System.err.println("Numero invalidos");
 		}
-	} while (num1<1 || num1>100 || num2<1 || num2>100 || num2<num1);
+	} while (num1<1 || num1>100 || num2<1 || num2>100 || num2<num1 || num1==num2);
 	
 	do {
 		random=(int) (num2*Math.random());
@@ -35,17 +38,15 @@ public static void aleatorio() {
 	
 	System.out.println("Numero aleatorio: "+random);
 	
-	div1=random;
+	if(random>10 && random<20)
+		System.out.println("|"+decimal[random]+"|");
+	else
+	{System.out.print("|"+centenas[(random/100)%10]);
+	System.out.print(decenas[(random/10)%10]);
+	System.out.print(unidades[(random)%10]+"|\n");}
 	
-	div1/=100;
-	System.out.print(centenas[div1]);
 	
-	div2 = random-div1;
-	
-	div2/=10;
-	System.out.print(decenas[div2]);
-	
-	div3=random-10*div2;
-	System.out.print(unidades[div3]+"\n \n");
+
+
 }
 }

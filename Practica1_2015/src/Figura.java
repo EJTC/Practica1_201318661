@@ -47,7 +47,7 @@ public static void calcular() {
 			break;
 			
 		default:
-			System.err.println("Opcion invalida");
+			System.err.println("Opcion invalida");//Mensaje de error
 			break;
 		}
 	} while (op=="c" || op=="u" || op=="t");

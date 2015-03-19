@@ -10,12 +10,12 @@ public class Tabla {
 		op=n.nextInt();
 		
 		if (op>10 || op<=0) 
-			System.err.println("Numero no valido\nDebe estar entre 1 y 10");
+			System.err.println("Numero no valido\nDebe estar entre 1 y 10");//Mensaje de error
 		
 		 }while (op>10 || op<=0);
 		
 		for (int i = 10; i >=1; i--) {
-			System.out.println(op+" X "+i+" = "+(op*i));	
+			System.out.println(op+" X "+i+" = "+(op*i));//Impresion de las tablas
 		}
 	}
 
