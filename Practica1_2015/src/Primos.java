@@ -9,7 +9,7 @@ public class Primos {
 		int cont=0;
 		int n=0;
 	
-			System.out.println("Ingrese el numero maximo para el conteo;");
+			System.out.println("Ingrese el numero maximo para el conteo:");
 			n=max.nextInt();
 			
 			for (int j=n;j>1;j--) {
@@ -21,14 +21,8 @@ public class Primos {
 					if(res==0){decision=false; break;}
 					
 					}
-				if (decision) {
-					cont++;
-				}
+				if (decision) {cont++;}
 			}
 		System.out.println("Existe "+cont+" numero(s) primo(s) entre 1 y "+n);
-			
-		
-		
-		
 	}
 }

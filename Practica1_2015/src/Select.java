@@ -72,6 +72,7 @@ public class Select {
 			
 		case 11:
 			System.out.println("..::|Numeros romanos|::..");
+			Romanos.lista();
 			break;
 			
 		case 12:

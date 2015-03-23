@@ -46,7 +46,7 @@ public class Adivina {
 			System.out.println("Letra:");
 			letraUsuario=x.next();
 				
-			z=(int) (30*Math.random());
+			z=(int) (30*Math.random()); 
 			
 			switch (z) {
 			case 2:

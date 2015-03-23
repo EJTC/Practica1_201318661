@@ -21,7 +21,7 @@ public class Arabigo {
 				System.err.println("Solo se puede ingresar numeros entre 1 y 3999");
 		} while (num>3999 || num==0);
 		//Impresion de cada uno de los digitos del numero usando los vectores
-			System.out.print(millares[(num/1000)]);
+			System.out.print("\n"+millares[(num/1000)]);
 			System.out.print(centenas[(num/100)%10]);
 			System.out.print(decenas[(num/10)%10]);
 			System.out.print(unidades[num%10]+"\n");
